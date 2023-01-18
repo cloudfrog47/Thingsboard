@@ -3,7 +3,10 @@
   "entity" : {
     "alias" : "ff",
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "569dd410-961f-11ed-999d-59943994b017"
+    },
     "id" : {
       "entityType" : "WIDGETS_BUNDLE",
       "id" : "569dd410-961f-11ed-999d-59943994b017"
@@ -30,10 +33,10 @@
       "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"TTR\"}"
     },
     "bundleAlias" : "ff",
-    "createdTime" : 1674010541362,
+    "createdTime" : 1674011807877,
     "id" : {
       "entityType" : "WIDGET_TYPE",
-      "id" : "982fb120-96db-11ed-999d-59943994b017"
+      "id" : "8b168b50-96de-11ed-999d-59943994b017"
     },
     "tenantId" : {
       "entityType" : "TENANT",

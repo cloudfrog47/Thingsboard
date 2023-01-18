@@ -8666,7 +8666,7 @@
       },
       "entityAliases" : {
         "783dd5f0-d34d-946d-a82f-95d3a6eaadd1" : {
-          "id" : "783dd5f0-d34d-946d-a82f-95d3a6eaadd1",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Supermarkets",
           "filter" : {
             "type" : "assetType",
@@ -8676,7 +8676,7 @@
           }
         },
         "1d799daf-1882-7a76-938b-c97e8c08ff11" : {
-          "id" : "1d799daf-1882-7a76-938b-c97e8c08ff11",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Selected Supermarket",
           "filter" : {
             "type" : "stateEntity",
@@ -8686,7 +8686,7 @@
           }
         },
         "48419e4a-90d9-9863-29b2-3877821b7e45" : {
-          "id" : "48419e4a-90d9-9863-29b2-3877821b7e45",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Smart Shelves",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8703,7 +8703,7 @@
           }
         },
         "129977b6-de2f-546b-7df8-2040f39f8732" : {
-          "id" : "129977b6-de2f-546b-7df8-2040f39f8732",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Supermarket Devices",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8720,7 +8720,7 @@
           }
         },
         "4f533ad3-f478-db34-2083-a827bf1992d7" : {
-          "id" : "4f533ad3-f478-db34-2083-a827bf1992d7",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Chillers",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8737,7 +8737,7 @@
           }
         },
         "412dae47-c5be-1531-0fc0-57a0fae0465d" : {
-          "id" : "412dae47-c5be-1531-0fc0-57a0fae0465d",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Freezers",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8754,7 +8754,7 @@
           }
         },
         "27651437-21f6-19c4-b2ea-410b996acc3f" : {
-          "id" : "27651437-21f6-19c4-b2ea-410b996acc3f",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Smart Bins",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8771,7 +8771,7 @@
           }
         },
         "7b659beb-1601-5b67-528e-0846d1a0efa6" : {
-          "id" : "7b659beb-1601-5b67-528e-0846d1a0efa6",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Current user",
           "filter" : {
             "type" : "singleEntity",
@@ -8783,7 +8783,7 @@
           }
         },
         "b755362a-b545-8ee6-a67b-df2c9e39d6e5" : {
-          "id" : "b755362a-b545-8ee6-a67b-df2c9e39d6e5",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Selected device",
           "filter" : {
             "type" : "stateEntity",
@@ -8793,7 +8793,7 @@
           }
         },
         "44d86dd5-a623-f50e-afbf-73bb1d235830" : {
-          "id" : "44d86dd5-a623-f50e-afbf-73bb1d235830",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Dispensers",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8810,7 +8810,7 @@
           }
         },
         "cdf692dd-915b-cdc8-7b51-fc8980c44135" : {
-          "id" : "cdf692dd-915b-cdc8-7b51-fc8980c44135",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Door Sensors",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8827,7 +8827,7 @@
           }
         },
         "15130463-060f-d497-b4ee-39cfc42d3096" : {
-          "id" : "15130463-060f-d497-b4ee-39cfc42d3096",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Occupancy Sensors",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8844,7 +8844,7 @@
           }
         },
         "88fa493d-e8a6-93b9-1d99-ee3d9cbe8487" : {
-          "id" : "88fa493d-e8a6-93b9-1d99-ee3d9cbe8487",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Smoke Sensors",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8861,7 +8861,7 @@
           }
         },
         "6073fc37-70ca-4537-f15a-c7dbdd56b343" : {
-          "id" : "6073fc37-70ca-4537-f15a-c7dbdd56b343",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Motion Sensors",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -8878,7 +8878,7 @@
           }
         },
         "6c0a1eb1-b0e7-1578-a4f0-c0e0c8a77c82" : {
-          "id" : "6c0a1eb1-b0e7-1578-a4f0-c0e0c8a77c82",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Current owner",
           "filter" : {
             "type" : "singleEntity",
@@ -9349,7 +9349,10 @@
       }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a21a3820-9089-11ed-bd23-bb2e36863f7a"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "a21a3820-9089-11ed-bd23-bb2e36863f7a"

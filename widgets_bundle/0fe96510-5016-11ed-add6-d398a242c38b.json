@@ -3,7 +3,10 @@
   "entity" : {
     "alias" : "test_widgets",
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "0fe96510-5016-11ed-add6-d398a242c38b"
+    },
     "id" : {
       "entityType" : "WIDGETS_BUNDLE",
       "id" : "0fe96510-5016-11ed-add6-d398a242c38b"
@@ -38,10 +41,10 @@
       "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"Azure Map\"}"
     },
     "bundleAlias" : "test_widgets",
-    "createdTime" : 1666315710405,
+    "createdTime" : 1674010900175,
     "id" : {
       "entityType" : "WIDGET_TYPE",
-      "id" : "ab873f50-50df-11ed-add6-d398a242c38b"
+      "id" : "6e0e35f0-96dc-11ed-999d-59943994b017"
     },
     "tenantId" : {
       "entityType" : "TENANT",
@@ -71,10 +74,10 @@
       "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"Azure Map 0\"}"
     },
     "bundleAlias" : "test_widgets",
-    "createdTime" : 1666323339338,
+    "createdTime" : 1674010900178,
     "id" : {
       "entityType" : "WIDGET_TYPE",
-      "id" : "6eba0aa0-50f1-11ed-add6-d398a242c38b"
+      "id" : "6e0eab20-96dc-11ed-999d-59943994b017"
     },
     "tenantId" : {
       "entityType" : "TENANT",

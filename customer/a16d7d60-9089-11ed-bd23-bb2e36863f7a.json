@@ -8,7 +8,10 @@
     "country" : "United States",
     "customerId" : null,
     "email" : "retailerA.rwirl5v0ft@thingsboard.org",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a16d7d60-9089-11ed-bd23-bb2e36863f7a"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "a16d7d60-9089-11ed-bd23-bb2e36863f7a"

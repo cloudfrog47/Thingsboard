@@ -9,7 +9,10 @@
       "id" : "a128fa50-9089-11ed-bd23-bb2e36863f7a"
     },
     "description" : "Smoke and Carbon Monoxide detector",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "a1556180-9089-11ed-bd23-bb2e36863f7a"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",

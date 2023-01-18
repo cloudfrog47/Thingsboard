@@ -1884,7 +1884,7 @@
       },
       "entityAliases" : {
         "1c348dad-e738-a4db-5e7e-4c0271790ab7" : {
-          "id" : "1c348dad-e738-a4db-5e7e-4c0271790ab7",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Supermarkets",
           "filter" : {
             "type" : "assetSearchQuery",
@@ -1904,7 +1904,7 @@
           }
         },
         "d13f6078-0d81-ec59-529c-64acbbcaf470" : {
-          "id" : "d13f6078-0d81-ec59-529c-64acbbcaf470",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Supermarket Devices",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -1921,7 +1921,7 @@
           }
         },
         "04917190-aea7-e407-e308-4598f1671a71" : {
-          "id" : "04917190-aea7-e407-e308-4598f1671a71",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Retail companies",
           "filter" : {
             "type" : "entitiesByGroupName",
@@ -1933,7 +1933,7 @@
           }
         },
         "7add11d8-cbf7-fd15-6b12-d5df058f11fa" : {
-          "id" : "7add11d8-cbf7-fd15-6b12-d5df058f11fa",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Selected Supermarket",
           "filter" : {
             "type" : "stateEntity",
@@ -1943,7 +1943,7 @@
           }
         },
         "984b0bbe-9a03-40ac-90f0-31db7e70dc8c" : {
-          "id" : "984b0bbe-9a03-40ac-90f0-31db7e70dc8c",
+          "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b",
           "alias" : "Customer Supermarket Devices",
           "filter" : {
             "type" : "entitiesByGroupName",
@@ -2002,7 +2002,10 @@
       }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a211d3b0-9089-11ed-bd23-bb2e36863f7a"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "a211d3b0-9089-11ed-bd23-bb2e36863f7a"
