@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Door Sensor"
   },
-  "credentials" : {
-    "credentialsId" : "v4K3CdIxcvobYb0sooom",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

@@ -37,11 +37,6 @@
     "softwareId" : null,
     "type" : "default"
   },
-  "credentials" : {
-    "credentialsId" : "5vxUjecXjaMI5SdJwIgD",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {

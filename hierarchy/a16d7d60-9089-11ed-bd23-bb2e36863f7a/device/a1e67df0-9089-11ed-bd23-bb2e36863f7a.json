@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Motion Sensor"
   },
-  "credentials" : {
-    "credentialsId" : "sf3bb7waCZhiG7sH64uQ",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

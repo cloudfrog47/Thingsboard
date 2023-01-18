@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Smart Shelf"
   },
-  "credentials" : {
-    "credentialsId" : "wOooibE5qRmgqvsA6KYY",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

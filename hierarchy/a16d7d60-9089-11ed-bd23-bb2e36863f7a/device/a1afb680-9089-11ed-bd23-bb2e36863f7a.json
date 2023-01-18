@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Smart Bin"
   },
-  "credentials" : {
-    "credentialsId" : "lsAaxCF3uTjK7bApoTxw",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

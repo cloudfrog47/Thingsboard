@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Smoke Sensor"
   },
-  "credentials" : {
-    "credentialsId" : "WsffWvYnTmc8PmDfJjGG",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

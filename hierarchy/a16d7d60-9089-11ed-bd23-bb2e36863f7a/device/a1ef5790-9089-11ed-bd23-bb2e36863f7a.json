@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Freezer"
   },
-  "credentials" : {
-    "credentialsId" : "yrj9Bmll9A1wVZ7tVb82",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

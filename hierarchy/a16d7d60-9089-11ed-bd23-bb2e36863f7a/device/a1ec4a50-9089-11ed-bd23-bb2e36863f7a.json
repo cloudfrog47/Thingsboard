@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Chiller"
   },
-  "credentials" : {
-    "credentialsId" : "S4yVHqw46qaoRZVj0KpY",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

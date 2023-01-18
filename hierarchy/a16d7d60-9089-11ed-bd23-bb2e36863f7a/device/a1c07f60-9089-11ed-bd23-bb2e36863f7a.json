@@ -36,11 +36,6 @@
     "softwareId" : null,
     "type" : "Liquid Level Sensor"
   },
-  "credentials" : {
-    "credentialsId" : "a0esJMzPr6UKyMLNai9l",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
   "relations" : [ {
     "additionalInfo" : null,
     "from" : {

@@ -37,31 +37,14 @@
     "softwareId" : null,
     "type" : "default"
   },
-  "credentials" : {
-    "credentialsId" : "AkyCIeh0zGf8s1jtMNyA",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
-  },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "a17d0dc0-9089-11ed-bd23-bb2e36863f7a"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "5bff8c50-96d8-11ed-999d-59943994b017"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  } ],
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1674009803814,
+      "lastUpdateTs" : 1674009152142,
       "longValue" : null,
       "strValue" : null
     }, {
