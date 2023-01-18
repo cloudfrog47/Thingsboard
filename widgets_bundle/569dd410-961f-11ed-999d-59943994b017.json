@@ -1,0 +1,20 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "ff",
+    "description" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "569dd410-961f-11ed-999d-59943994b017"
+    },
+    "image" : null,
+    "name" : "FF",
+    "title" : "FF"
+  },
+  "widgets" : [ ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

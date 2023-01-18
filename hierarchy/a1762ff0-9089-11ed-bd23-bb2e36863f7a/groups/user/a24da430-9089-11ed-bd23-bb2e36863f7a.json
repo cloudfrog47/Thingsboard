@@ -1,0 +1,93 @@
+{
+  "entityType" : "ENTITY_GROUP",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "columns" : [ {
+        "type" : "ENTITY_FIELD",
+        "key" : "created_time",
+        "sortOrder" : "DESC"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "first_name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "last_name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "email",
+        "sortOrder" : "NONE"
+      } ],
+      "settings" : { },
+      "actions" : { }
+    },
+    "edgeGroupAll" : false,
+    "externalId" : null,
+    "groupAll" : false,
+    "id" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "a24da430-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "name" : "Smart Retail Users",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a1762ff0-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "type" : "USER"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "groupEntities" : true,
+  "permissions" : [ {
+    "entityGroupId" : null,
+    "entityGroupType" : null,
+    "roleId" : {
+      "entityType" : "ROLE",
+      "id" : "a1232df0-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b"
+    },
+    "userGroupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "a24da430-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "createdTime" : 1673315632630,
+    "id" : {
+      "entityType" : "GROUP_PERMISSION",
+      "id" : "a24e1960-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "name" : "GENERIC_[a24da430-9089-11ed-bd23-bb2e36863f7a]_[a1232df0-9089-11ed-bd23-bb2e36863f7a]",
+    "public" : false
+  }, {
+    "entityGroupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "a2224e70-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "entityGroupType" : "DASHBOARD",
+    "roleId" : {
+      "entityType" : "ROLE",
+      "id" : "a11bdaf0-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b"
+    },
+    "userGroupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "a24da430-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "createdTime" : 1673315632634,
+    "id" : {
+      "entityType" : "GROUP_PERMISSION",
+      "id" : "a24eb5a0-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "name" : "GROUP_[a24da430-9089-11ed-bd23-bb2e36863f7a]_[a11bdaf0-9089-11ed-bd23-bb2e36863f7a]_[a2224e70-9089-11ed-bd23-bb2e36863f7a]_[DASHBOARD]",
+    "public" : false
+  } ]
+}

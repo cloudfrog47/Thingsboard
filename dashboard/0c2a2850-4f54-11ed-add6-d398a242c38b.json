@@ -1,0 +1,191 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "1a570a6a-44b2-bded-a26c-13011b6ba410" : {
+          "isSystemType" : false,
+          "bundleAlias" : "test_widgets",
+          "typeAlias" : "azure_map",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "6c4e3aba-fe24-0845-8ef4-ec40254e23c4",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "name",
+                "type" : "entityField",
+                "label" : "Name",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.1435717503976428
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "New Azure Map"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "1a570a6a-44b2-bded-a26c-13011b6ba410"
+        },
+        "3b3c9039-78ef-d11e-dcc8-762ebc653c95" : {
+          "isSystemType" : false,
+          "bundleAlias" : "test_widgets",
+          "typeAlias" : "azure_map2",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "6c4e3aba-fe24-0845-8ef4-ec40254e23c4",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "name",
+                "type" : "entityField",
+                "label" : "Name",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.4245684865149546
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "New Azure Map 0"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "3b3c9039-78ef-d11e-dcc8-762ebc653c95"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Test Dashboard",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "1a570a6a-44b2-bded-a26c-13011b6ba410" : {
+                  "sizeX" : 12,
+                  "sizeY" : 8,
+                  "row" : 0,
+                  "col" : 0
+                },
+                "3b3c9039-78ef-d11e-dcc8-762ebc653c95" : {
+                  "sizeX" : 12,
+                  "sizeY" : 8,
+                  "row" : 0,
+                  "col" : 12
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "6c4e3aba-fe24-0845-8ef4-ec40254e23c4" : {
+          "id" : "6c4e3aba-fe24-0845-8ef4-ec40254e23c4",
+          "alias" : "Alias",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "29760450-50e0-11ed-add6-d398a242c38b"
+            }
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "hideTimezone" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "realtimeType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1666229534744,
+            "endTimeMs" : 1666315934744
+          },
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "0c2a2850-4f54-11ed-add6-d398a242c38b"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Test Dashboard",
+    "ownerId" : null,
+    "title" : "Test Dashboard"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

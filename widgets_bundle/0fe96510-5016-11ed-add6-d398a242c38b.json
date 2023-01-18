@@ -1,0 +1,88 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "test_widgets",
+    "description" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "0fe96510-5016-11ed-add6-d398a242c38b"
+    },
+    "image" : null,
+    "name" : "Test Widgets",
+    "title" : "Test Widgets"
+  },
+  "widgets" : [ {
+    "alias" : "azure_map",
+    "name" : "Azure Map",
+    "image" : null,
+    "description" : null,
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 7.5,
+      "sizeY" : 3,
+      "resources" : [ {
+        "url" : "https://cdn.jsdelivr.net/npm/azure-maps-control@2.2.0/dist/atlas.min.js"
+      }, {
+        "url" : "https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+      }, {
+        "url" : "https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"
+      }, {
+        "url" : "https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+      } ],
+      "templateHtml" : "<div id=\"myMap\"></div>",
+      "templateCss" : "#container {\n    overflow: auto;\n}\n\n.tbDatasource-container {\n    margin: 5px;\n    padding: 8px;\n}\n\n#myMap {\n    height: 100vh;\n    width: 100vw;\n}",
+      "controllerScript" : "self.onInit = function() {\n    const subscriptionKey =\n        \"BBpT4P-jEg00Jcx5IgeP6Bqu8bWi7HJYP-7rmp3hXao\";\n\n    var map = new atlas.Map('myMap', {\n        center: [-122.33, 47.6],\n        zoom: 12,\n        language: 'en-JP',\n        view: 'Auto',\n        authOptions: {\n            authType: 'subscriptionKey',\n            subscriptionKey: subscriptionKey\n        }\n    });\n\n\n    //Wait until the map resources are ready.\n    map.events.add('ready', function() {\n\n        /* Construct a zoom control*/\n        var zoomControl = new atlas.control\n            .ZoomControl();\n\n        /* Add the zoom control to the map*/\n        map.controls.add([\n            new atlas.control.ZoomControl(),\n            new atlas.control.CompassControl(),\n            new atlas.control.PitchControl(),\n            new atlas.control.StyleControl()\n            ], {\n            position: \"top-right\"\n        });\n    });\n\n}\n\nself.onDataUpdated = function() {\n\n}\n\nself.onDestroy = function() {}",
+      "settingsSchema" : "{}",
+      "dataKeySettingsSchema" : "{}\n",
+      "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"Azure Map\"}"
+    },
+    "bundleAlias" : "test_widgets",
+    "createdTime" : 1666315710405,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "ab873f50-50df-11ed-add6-d398a242c38b"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b"
+    }
+  }, {
+    "alias" : "azure_map2",
+    "name" : "Azure Map 0",
+    "image" : null,
+    "description" : null,
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 7.5,
+      "sizeY" : 3,
+      "resources" : [ {
+        "url" : "https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+      }, {
+        "url" : "https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"
+      }, {
+        "url" : "https://atlas.microsoft.com/sdk/javascript/indoor/0.1/atlas-indoor.min.js"
+      } ],
+      "templateHtml" : "<div id=\"map-id\"></div>\r\n",
+      "templateCss" : "#container {\n    overflow: auto;\n}\n\n.tbDatasource-container {\n    margin: 5px;\n    padding: 8px;\n}\n\n#map-id {\n    height: 100vh;\n    width: 100vw;\n}",
+      "controllerScript" : "self.onInit = function() {\n      const subscriptionKey = \"raIgByGdx4sTtHoedwWJaJvmjSfYpW_QWUokJC05Jyo\";\n      //const mapConfig = \"<Your map configuration id or alias>\";\n      const statesetId = \"f62fa4da-1c83-1bd9-528e-7ffeeed32162\";\n      const tilesetId = '0956b860-cdd0-d6cc-9280-b69b16373ef6';\n      const region = \"us\"    \n      atlas.setDomain(`${region}.atlas.microsoft.com`);\n\n      const map = new atlas.Map(\"map-id\", {\n        //use your facility's location\n        center: [-122.13315, 47.63637],\n        //or, you can use bounds: [# west, # south, # east, # north] and replace # with your Map bounds\n        authOptions: { \n            authType: 'subscriptionKey',\n            subscriptionKey: subscriptionKey\n        },\n        zoom: 19,\n\n        //mapConfiguration: mapConfig,\n        styleAPIVersion: '2.0'\n      });\n\n      const levelControl = new atlas.control.LevelControl({\n        position: \"top-right\",\n      });\n      \n\n      const indoorManager = new atlas.indoor.IndoorManager(map, {\n        //tilesetId: tilesetId,\n        levelControl: levelControl, //level picker\n        //statesetId: statesetId // Optional\n      });\n\n\n      map.events.add(\"levelchanged\", indoorManager, (eventData) => {\n        //put code that runs after a level has been changed\n        console.log(\"The level has changed:\", eventData);\n      });\n\n      map.events.add(\"facilitychanged\", indoorManager, (eventData) => {\n        //put code that runs after a facility has been changed\n        console.log(\"The facility has changed:\", eventData);\n      });\n\n\n    //Wait until the map resources are ready.\n    map.events.add('ready', function() {\n\n        /* Construct a zoom control*/\n        var zoomControl = new atlas.control\n            .ZoomControl();\n\n        /* Add the zoom control to the map*/\n        map.controls.add([\n            new atlas.control.ZoomControl(),\n            new atlas.control.CompassControl(),\n            new atlas.control.PitchControl(),\n            new atlas.control.StyleControl()\n            ], {\n            position: \"top-right\"\n        });\n    });\n\n}\n\nself.onDataUpdated = function() {\n\n}\n\nself.onDestroy = function() {}",
+      "settingsSchema" : "{}",
+      "dataKeySettingsSchema" : "{}\n",
+      "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"Azure Map 0\"}"
+    },
+    "bundleAlias" : "test_widgets",
+    "createdTime" : 1666323339338,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "6eba0aa0-50f1-11ed-add6-d398a242c38b"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "5615bfb0-4f4f-11ed-add6-d398a242c38b"
+    }
+  } ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

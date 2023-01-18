@@ -1,0 +1,30 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "Smart Retail User",
+    "permissions" : {
+      "ALL" : [ "READ", "RPC_CALL", "READ_CREDENTIALS", "READ_ATTRIBUTES", "READ_TELEMETRY" ],
+      "PROFILE" : [ "ALL" ],
+      "ALARM" : [ "READ", "WRITE" ],
+      "CUSTOMER" : [ "WRITE_ATTRIBUTES" ],
+      "DEVICE" : [ "WRITE_ATTRIBUTES" ],
+      "ASSET" : [ "WRITE_ATTRIBUTES" ]
+    },
+    "type" : "GENERIC",
+    "additionalInfo" : null,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "a1232df0-9089-11ed-bd23-bb2e36863f7a"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
